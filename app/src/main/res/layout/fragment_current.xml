@@ -6,8 +6,6 @@
     android:orientation="vertical"
     tools:context="com.example.plex.vfix.fragments.CurrentFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/current_refresh"
         android:layout_width="match_parent"
