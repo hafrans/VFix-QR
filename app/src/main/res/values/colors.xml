@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FEE700</color>
+    <color name="colorPrimaryDark">#ECC641</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yellowTheme">#FEE700</color>
+    <color name="plainText">#222222</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="yellowLight">#FDF289</color>
+    <color name="backgroundYellow">#F8F6F7</color>
+    <color name="buttonTextYellow">#ECC641</color>
+    <color name="btnBlue">#234d6e</color>
+    <color name="notAccepted">#FB4E52</color>
+    <color name="pending">#F47023</color>
+    <color name="success">#45b98a</color>
+</resources>

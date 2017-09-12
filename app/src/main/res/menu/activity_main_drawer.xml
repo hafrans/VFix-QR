@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item-->
+        <!--android:id="@+id/nav_manage"-->
+        <!--android:icon="@drawable/ic_menu_manage"-->
+        <!--android:title="设置" />-->
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="个人信息" />
+    <item
+        android:id="@+id/nav_fix_now"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="立即报修" />
+    <item
+        android:id="@+id/nav_slideshow"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="电话簿" />
+
+
+    <item android:title="联系我们">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="关于" />
+            <item
+                android:id="@+id/nav_provision"
+                android:icon="@mipmap/account"
+                android:title="声明" />
+        </menu>
+    </item>
+
+</menu>

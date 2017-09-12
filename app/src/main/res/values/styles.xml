@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellowTheme</item>
+        <item name="colorPrimaryDark">#f0ab4e</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="FullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/backgroundYellow</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- Here is the fix of Components' color in Toolbar  -->
+    <style name="ToolBarFix" parent="AppTheme">
+        <item name="actionMenuTextColor">#333333</item>
+        <item name="colorButtonNormal">#333333</item>
+        <item name="colorControlNormal">#333333</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="AppTheme.SpinnerTheme" parent="Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+</resources>
